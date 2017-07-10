@@ -1,4 +1,4 @@
-import sys
+#import sys
 a = sys.argv[1].lower()
 b = a[::-1]
 print(b)
