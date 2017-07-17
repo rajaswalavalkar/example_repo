@@ -1,0 +1,10 @@
+import logging
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',filename='Q6log.log',level=logging.DEBUG)
+e=raw_input("Enter email address = ")
+logging.info('Email address accepted')
+u=e.split('@')
+logging.info('userename splited from email address')
+print("Username  = "+str(u[0]))
+c=u[1].split('.')
+logging.info('company name splited from email address')
+print("Company name = "+str(c[0]))
