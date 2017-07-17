@@ -1,0 +1,5 @@
+e=raw_input("Enter email address = ")
+u=e.split('@')
+print("Username  = "+str(u[0]))
+c=u[1].split('.')
+print("Company name = "+str(c[0]))
